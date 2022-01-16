@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="429dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:menu="@menu/bottom_menu"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Gênesis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Gênesis" />
+
+                <Button
+                    android:id="@+id/Êxodo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Êxodo" />
+
+                <Button
+                    android:id="@+id/Levítico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Levítico" />
+
+                <Button
+                    android:id="@+id/Números"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Números" />
+
+                <Button
+                    android:id="@+id/Deuteronômio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Deuteronômio" />
+
+                <Button
+                    android:id="@+id/Josué"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Josué" />
+
+                <Button
+                    android:id="@+id/Juízes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Juízes" />
+
+                <Button
+                    android:id="@+id/Rute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Rute" />
+
+                <Button
+                    android:id="@+id/Samuel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="1 Samuel" />
+
+                <Button
+                    android:id="@+id/Samuel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="2 Samuel" />
+
+                <Button
+                    android:id="@+id/Reis1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="1 Reis" />
+
+                <Button
+                    android:id="@+id/Reis2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="2 Reis" />
+
+                <Button
+                    android:id="@+id/Crônicas1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="1 Crônicas" />
+
+                <Button
+                    android:id="@+id/Crônicas2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="2 Crônicas" />
+
+                <Button
+                    android:id="@+id/Esdras"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Esdras" />
+
+                <Button
+                    android:id="@+id/Neemias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Neemias" />
+
+                <Button
+                    android:id="@+id/ester"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Ester" />
+
+                <Button
+                    android:id="@+id/jó"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Jó" />
+
+                <Button
+                    android:id="@+id/salmos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Salmos" />
+
+                <Button
+                    android:id="@+id/provérbios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Provérbios" />
+
+                <Button
+                    android:id="@+id/eclesiastes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Eclesiastes" />
+
+                <Button
+                    android:id="@+id/cânticos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Cânticos" />
+
+                <Button
+                    android:id="@+id/isaías"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Isaías" />
+
+                <Button
+                    android:id="@+id/jeremias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Jeremias" />
+
+                <Button
+                    android:id="@+id/lamentações"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Lamentações" />
+
+                <Button
+                    android:id="@+id/ezequiel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Ezequiel" />
+
+                <Button
+                    android:id="@+id/daniel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Daniel" />
+
+                <Button
+                    android:id="@+id/Oséias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Oséias" />
+
+                <Button
+                    android:id="@+id/Joel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Joel" />
+
+                <Button
+                    android:id="@+id/Amós"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Amós" />
+
+                <Button
+                    android:id="@+id/Obadias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Obadias" />
+
+                <Button
+                    android:id="@+id/Jonas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Jonas" />
+
+                <Button
+                    android:id="@+id/Miquéias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Miquéias" />
+
+                <Button
+                    android:id="@+id/Naum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Naum" />
+
+                <Button
+                    android:id="@+id/Habacuque"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Habacuque" />
+
+                <Button
+                    android:id="@+id/Sofonias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Sofonias" />
+
+                <Button
+                    android:id="@+id/Ageu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Ageu" />
+
+                <Button
+                    android:id="@+id/Zacarias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Zacarias" />
+
+                <Button
+                    android:id="@+id/Malaquias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Malaquias" />
+
+                <Button
+                    android:id="@+id/Mateus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Mateus" />
+
+                <Button
+                    android:id="@+id/Marcos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Marcos" />
+
+                <Button
+                    android:id="@+id/Lucas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Lucas" />
+
+                <Button
+                    android:id="@+id/João"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="João" />
+
+                <Button
+                    android:id="@+id/Atos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Atos" />
+
+                <Button
+                    android:id="@+id/Romanos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Romanos" />
+
+                <Button
+                    android:id="@+id/Coríntios1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="1 Coríntios" />
+
+                <Button
+                    android:id="@+id/Coríntios2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="2 Coríntios" />
+
+                <Button
+                    android:id="@+id/Gálatas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Gálatas" />
+
+                <Button
+                    android:id="@+id/Efésios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Efésios" />
+
+                <Button
+                    android:id="@+id/Filipenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Filipenses" />
+
+                <Button
+                    android:id="@+id/Colossenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Colossenses" />
+
+                <Button
+                    android:id="@+id/Tessalonicenses1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="1 Tessalonicenses" />
+
+                <Button
+                    android:id="@+id/Tessalonicenses2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="2 Tessalonicenses" />
+
+                <Button
+                    android:id="@+id/Timóteo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="1 Timóteo" />
+
+                <Button
+                    android:id="@+id/Timóteo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="2 Timóteo" />
+
+                <Button
+                    android:id="@+id/Tito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Tito" />
+
+                <Button
+                    android:id="@+id/Filemom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Filemom" />
+
+                <Button
+                    android:id="@+id/Hebreus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Hebreus" />
+
+                <Button
+                    android:id="@+id/Tiago"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Tiago" />
+
+                <Button
+                    android:id="@+id/Pedro1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="1 Pedro" />
+
+                <Button
+                    android:id="@+id/Pedro2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="2 Pedro" />
+
+                <Button
+                    android:id="@+id/João1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="1 João" />
+
+                <Button
+                    android:id="@+id/João2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="2 João" />
+
+                <Button
+                    android:id="@+id/João3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="3 João" />
+
+                <Button
+                    android:id="@+id/Judas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Judas" />
+
+                <Button
+                    android:id="@+id/Apocalipse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="buttonClicked"
+                    android:text="Apocalipse" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
